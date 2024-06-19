@@ -3,8 +3,8 @@
     <svg></svg>
     <div class="popup" v-show="isShow">
       <div>{{title}}</div>
-      <a :href="link">Start A Test</a>
-      <!-- <a href="https://www.classmarker.com/online-test/start/?quiz=jet5c2ec48d2a97d">Start a Test </a> -->
+      <!-- <a :href="link">Start A Test</a> -->
+      <a href="https://www.classmarker.com/online-test/start/?quiz=jet5c2ec48d2a97d">Start a Test </a>
       <i class="material-icons" @click="closePopup">close</i>
     </div>
     <div class="hover"></div>
